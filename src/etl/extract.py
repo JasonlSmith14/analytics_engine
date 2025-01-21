@@ -5,7 +5,7 @@ class Extract:
     def __init__(self):
         pass
 
-    def extract_data(file_path: str):
+    def extract_data(self, file_path: str):
         """
         Will simply extract the csv data into a dataframe
         """
