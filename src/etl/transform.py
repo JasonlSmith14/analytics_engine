@@ -1,11 +1,9 @@
-from datetime import datetime
 import numpy as np
 import pandas as pd
 
 from src.models.models import Categories, Customers, Orders, Products
 from src.repository.categories import CategoriesRepository
 from src.repository.customers import CustomersRepository
-from src.repository.orders import OrdersRepository
 from src.repository.products import ProductsRepository
 
 
